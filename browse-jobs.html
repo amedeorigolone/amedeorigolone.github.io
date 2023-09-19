@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- Metas  -->
+	<meta charset="utf-8">
+	<title>JobSearch</title>
+
+	<!-- Mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS -->
+
+	<link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+<div id="wrapper">
+
+
+<!-- Header
+================================================== -->
+<header>
+<div class="container">
+	<div class="sixteen columns">
+
+		<!-- Logo -->
+		<div id="logo">
+			<h1><a href="index.html"><img src="images/logo.png" alt="logo" /></a></h1>
+		</div>
+
+		<!-- Menu -->
+		<nav id="navigation" class="menu">
+			<ul id="responsive">
+
+				<li><a href="index.html">Home</a>
+				</li>
+
+				<li><a href="browse-jobs.html">Jobs</a>
+				</li>
+
+				<li><a href="cv.html">Send us your cv</a>
+				</li>
+
+				<li><a href="contact.html">Contacts</a>
+				</li>
+
+			
+			</ul>
+
+
+		</nav>
+
+		<!-- Navigation -->
+		<div id="mobile-navigation">
+			<a href="#menu" class="menu-trigger"><i class="fa fa-reorder"></i> Menu</a>
+		</div>
+
+	</div>
+</div>
+</header>
+
+
+
+<!-- Titlebar
+================================================== -->
+<div id="titlebar">
+	<div class="container">
+		<div class="ten columns">
+			<h2>Search job</h2>
+		</div>	
+	</div>
+</div>
+
+
+<!-- Content
+================================================== -->
+<div class="container">
+	<!-- Recent Jobs -->
+	<div class="eleven columns">
+	<div class="padding-right">
+		
+		<form action="#" method="get" class="list-search">
+			<button><i class="fa fa-search"></i></button>
+			<input type="text" placeholder="job title or company name" value=""/>
+			<div class="clearfix"></div>
+		</form>
+
+		<ul class="job-list full">
+
+			<li><a href="job-page.html">
+				<img src="images/briefcase.png" alt="">
+				<div class="job-list-content">
+					<h4>Web developer</h4>
+					<div class="job-icons">
+						<span><i class="fa fa-briefcase"></i>DevMe</span>
+						<span><i class="fa fa-map-marker"></i> Sydney</span>
+						<span><i class="fa fa-user"></i>Junior</span>
+						<span><i class="fa fa-clock-o"></i>Full-time</span>
+					</div>
+					<p>We are looking for a +2 years Web developer focus in PHP and JS</p>
+				</div>
+				</a>
+				<div class="clearfix"></div>
+			</li>
+
+			<li><a href="job-page1.html">
+				<img src="images/briefcase.png" alt="">
+				<div class="job-list-content">
+					<h4>Ruby on Rails dev</h4>
+					<div class="job-icons">
+						<span><i class="fa fa-briefcase"></i>Embar</span>
+						<span><i class="fa fa-map-marker"></i> London</span>
+						<span><i class="fa fa-user"></i>Mid level</span>
+						<span><i class="fa fa-clock-o"></i>Part-time</span>
+					
+					</div>
+					<p>Are you a ruby developer? we are looking for you, contact us!</p>
+				</div>
+				</a>
+				<div class="clearfix"></div>
+			</li>
+
+			<li><a href="job-page2.html">
+				<img src="images/briefcase.png" alt="">
+				<div class="job-list-content">
+					<h4>Full stack engeneer</h4>
+					<div class="job-icons">
+						<span><i class="fa fa-briefcase"></i>IC limited</span>
+						<span><i class="fa fa-map-marker"></i>London</span>
+						<span><i class="fa fa-user"></i>Senior</span>
+						<span><i class="fa fa-clock-o"></i>Full-time</span>
+					
+					</div>
+					<p>We are looking for a senior developer with 10+ years of experience in Web development</p>
+				</div>
+				</a>
+				<div class="clearfix"></div>
+			</li>
+
+			<li><a href="job-page3.html">
+				<img src="images/briefcase.png" alt="">
+				<div class="job-list-content">
+					<h4>Web developer</h4>
+					<div class="job-icons">
+						<span><i class="fa fa-briefcase"></i>Docux</span>
+						<span><i class="fa fa-map-marker"></i>Birmingham</span>
+						<span><i class="fa fa-user"></i>Junior</span>
+						<span><i class="fa fa-clock-o"></i>Internship</span>
+					
+					</div>
+					<p>We are looking for young people with a desire to learn</p>
+				</div>
+				</a>
+	
+			</li>
+
+			
+		</ul>
+
+
+		<div class="pagination-container">
+			<nav class="pagination">
+				<ul>
+					<li><a href="#" class="current-page">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li class="blank">...</li>
+					<li><a href="#">100</a></li>
+				</ul>
+			</nav>
+
+			<nav class="pagination-next-prev">
+				<ul>
+					<li><a href="#" class="prev">Previous</a></li>
+					<li><a href="#" class="next">Next</a></li>
+				</ul>
+			</nav>
+		</div>
+
+	</div>
+	</div>
+
+
+	<!-- Widgets -->
+	<div class="five columns">
+
+		<!-- Sort by -->
+		<div class="widget">
+			<h4>Sort by</h4>
+
+			<!-- Select -->
+			<select data-placeholder="Choose Category" class="chosen-select-no-single">
+				<option selected="selected" value="recent">Newest</option>
+				<option value="oldest">Oldest</option>
+			</select>
+
+		</div>
+
+		<!-- Location -->
+		<div class="widget">
+			<h4>Location</h4>
+			<form action="#" method="get">
+				<input type="text" placeholder="State" value=""/>
+				<input type="text" placeholder="City" value=""/>
+			
+				<input type="text" class="Km" placeholder="Km" value=""/>
+			
+
+			</form>
+		</div>
+
+		<!-- Job Type -->
+		<div class="widget">
+			<h4>Job Type</h4>
+
+			<ul class="checkboxes">
+				<li>
+					<input id="check-1" type="checkbox" name="check" value="check-1" checked>
+					<label for="check-1">Any Type</label>
+				</li>
+				<li>
+					<input id="check-2" type="checkbox" name="check" value="check-2">
+					<label for="check-2">Full-Time <span>(55)</span></label>
+				</li>
+				<li>
+					<input id="check-3" type="checkbox" name="check" value="check-3">
+					<label for="check-3">Part-Time <span>(89)</span></label>
+				</li>
+				<li>
+					<input id="check-4" type="checkbox" name="check" value="check-4">
+					<label for="check-4">Internship <span>(87)</span></label>
+				</li>
+				<li>
+					<input id="check-5" type="checkbox" name="check" value="check-5">
+					<label for="check-5">Freelance <span>(89)</span></label>
+				</li>
+			</ul>
+			<br>
+			<button class="button">Search</button>
+		</div>
+
+		
+
+
+
+	</div>
+	<!-- Widgets / End -->
+
+
+</div>
+
+
+<!-- Footer
+================================================== -->
+<div class="margin-top-25"></div>
+
+<div id="footer">
+	<!-- Main -->
+	<div class="container">
+
+		<div class="seven columns">
+			<h4>Call us</h4>
+			<a href="#" class="fa fa-phone"> +44 078 939 3930</a>
+		</div>
+
+		<div class="three columns">
+			<h4>Browse</h4>
+			<ul class="footer-links">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Jobs</a></li>
+				<li><a href="#">CV</a></li>
+				<li><a href="#">Contacts</a></li>
+			</ul>
+		</div>
+		
+
+
+		<div class="three columns">
+			<h4>Our cities</h4>
+			<ul class="footer-links">
+				<li><a href="browse-jobs.html">Jobs in London</a></li>
+				<li><a href="browse-jobs.html">Jobs in Manchester</a></li>
+				<li><a href="browse-jobs.html">Jobs in Bristol</a></li>
+				<li><a href="browse-jobs.html">Jobs in Birmingham</a></li>
+			</ul>
+		</div>
+
+
+		<div class="three columns">
+			<h4>Our Jobs</h4>
+			<ul class="footer-links">
+				<li><a href="browse-jobs.html">Full-time</a></li>
+				<li><a href="browse-jobs.html">Part-time</a></li>
+				<li><a href="browse-jobs.html">Internship</a></li>
+				<li><a href="browse-jobs.html">Freelancer</a></li>
+			</ul>
+		</div>		
+
+
+
+	</div>
+
+	<!-- Bottom -->
+	<div class="container">
+		<div class="footer-bottom">
+			<div class="sixteen columns">
+				<div class="copyrights">©  Copyright 2023 by <a href="#">JobAmex</a>. All Rights Reserved.</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<!-- Back To Top Button -->
+<div id="backtotop"><a href="#"></a></div>
+
+</div>
+<!-- Wrapper / End -->
+
+
+<!-- Scripts
+================================================== -->
+<script src="scripts/jquery-3.7.1.min.js"></script>
+<script src="scripts/custom.js"></script>
+<script src="scripts/jquery.superfish.js"></script>
+<script src="scripts/jquery.themepunch.tools.min.js"></script>
+<script src="scripts/jquery.themepunch.revolution.min.js"></script>
+<script src="scripts/jquery.themepunch.showbizpro.min.js"></script>
+<script src="scripts/jquery.flexslider-min.js"></script>
+<script src="scripts/chosen.jquery.min.js"></script>
+<script src="scripts/jquery.magnific-popup.min.js"></script>
+<script src="scripts/waypoints.min.js"></script>
+<script src="scripts/jquery.counterup.min.js"></script>
+<script src="scripts/jquery.jpanelmenu.js"></script>
+<script src="scripts/stacktable.js"></script>
+
+
+</body>
+</html>
